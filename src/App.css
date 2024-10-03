@@ -1,0 +1,16 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: start;
+  background: #121111;
+}
+#root {
+  width: 100%;
+}
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%) !important;
+}
